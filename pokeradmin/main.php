@@ -51,7 +51,7 @@ exists. <BR> This is a security threat, please delete this file.</STRONG></P> <b
 
 <p>After you have created the tournament, added the details of a few players, you now need to assign those players to the tournament. This is done on the ‘Assign Players to Tournaments’ section. It is very straight forward to do, just select the tournament from the drop down list and then the players name/nickname form the other drop down lost and then hit the ‘Assign’ button. You will then be able to visit the tournament information page and see all the players which are assigned to that tournament.</p>
 
-<p>The Poker League Leaderboard and any of the indivdual tournamnet results can be printed out at anytime and all updates done in the admin panel will be avaialble to view ont he fornt end of the script on your website or just visit the standard tournament page <a href="../pokerleague_.php">here</a>.</p>
+<p>The Poker League Leaderboard and any of the indivdual tournamnet results can be printed out at anytime and all updates done in the admin panel will be avaialble to view on the fornt end of the script on your website or just visit the standard tournament page <a href="../pokerleague_.php">here</a>.</p>
 
 
 
