@@ -1,0 +1,156 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"> 
+  <head> 
+	 <title>PokerMax Poker League PHP Script Installation - written by
+		stevedawson.com</title>
+	 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+	 <link href="includes/style.css" rel="stylesheet" type="text/css" /> 
+  </head> 
+  <body> 
+	 <table width="100%" cellpadding="0" cellspacing="0" border="0"> 
+		<tr> 
+		  <td height="75" background="pokeradmin/images/headerbg.gif"
+			bgcolor="#FFFFFF"><a href="main.php"><img
+			 src="pokeradmin/images/header-top-left.jpg" width="115" height="76"
+			 border="0" /></a> </td> 
+		  <td height="75" align="right"
+			background="pokeradmin/images/headerbg.gif" bgcolor="#FFFFFF"><a
+			 href="main.php"><img src="pokeradmin/images/header-top-right.gif" width="350"
+			 height="74" border="0" /></a></td> 
+		</tr> 
+		<tr> 
+		  <td colspan="2" align="right" height="20" bgcolor="#DED6C0"
+			style="border-bottom: 1px solid #A0977E; border-top: 1px solid #ECE7D9"> 
+			 <table width="100%" height="20" cellpadding="2" cellspacing="0"
+			  border="0"> 
+				<tr> 
+				  <td></td> 
+				  <td align="right">PokerMax Poker League Installation Help&nbsp;					 </td> 
+				</tr> 
+			 </table></td> 
+		</tr> 
+	 </table><br /> 
+	 <table width="760" border="0"
+	  align="center" cellpadding="1" cellspacing="0"> 
+		<tbody> 
+		  <tr> 
+			 <td bgcolor="#333333"> 
+				<table bgcolor="#ffffff" border="0" cellpadding="10"
+				 cellspacing="0" width="760"> 
+				  <tbody> 
+					 <tr> 
+						<td colspan="4" background="pokeradmin/images/mainbg.gif"> 
+						  <h1><img src="pokeradmin/images/ace-spades.gif" width="27"
+							 height="27" />&nbsp;&nbsp;PokerMax Poker League Installation Guide</h1>
+						  <p><b>PokerMax Poker League</b> was wrtitten by <b>Steve
+							 Dawson</b> of <a href="http://www.stevedawson.com"
+							 target="new">www.stevedawson.com</a> - always check here for the latest version
+							 of any of my scripts.</p><br />
+						  <h1><img src="pokeradmin/images/ace-spades.gif" width="27"
+							 height="27" />&nbsp;&nbsp;PokerMax Poker League Overview</h1>
+						  <p align="justify">Before we delve right in and install the
+							 script, I thought I would let you read a bit about the planning of the script
+							 and what it does. Obviously PokerMax Poker League, is a simple solution to get
+							 the league table of tournaments and leaderboard on your website or just to keep
+							 track of the results for a pub team online.</p>
+						  <p align="justify">This software will allow you to run a
+							 poker league on your website, pub place of business etc. It can only run one
+							 poker league at a time. Each poker league can be made up of an unlimited number
+							 of tournaments which cover the league. You can also create your poker league
+							 players a profile with a little bit about themselves, so when there name appear
+							 on the poker tournament leaderboard and poker tournament result pages, visitors
+							 to your website can view a short profile about them.</p>
+						  <p align="justify">Please be aware this is not a PHP Poker
+							 script which will allow any user to register, create an account and then
+							 register for tournaments, PokerMax Poker League will need an poker tournament
+							 or admin area administrator to add players, their profiles, cerate the
+							 tournaments for the league and add/update any scores the poker players have
+							 accumulated over the poker tournament duration.</p>
+						  <ul>
+							 <li>Create a Poker League and add the league
+								information</li>
+							 <li>The Poker League can have an unlimited number or
+								tournaments and venues associated with the poker league.</li>
+							 <li>Unlimited poker players can be added to PokerMax
+								Poker League script, you only need to add the poker players information once,
+								then you can assign which ever poker players to the poker tournaments they have
+								entered for. This saves valuable time entering the poker players names and
+								nicames into every tournament they enter. This also allows any new players to
+								join anytime in the duration of the poker league and of course, they are not
+								required to enter into every poker tournament.</li>
+						  </ul>
+						  <h1><img src="pokeradmin/images/ace-spades.gif" width="27"
+							 height="27" />&nbsp;&nbsp;System Requirements</h1>
+						  <p>To install PokerMax Poker League on your web server,
+							 first you need to make sure that your web host / server meet a few requirements
+							 and they are:</p>
+						  <ul>
+							 <li>PHP Enabled Webserver</li>
+							 <li>MySQL database facilities</li>
+							 <li>PHPMyAdmin or Database Manager</li>
+							 <li>And a little bit of common sense!</li>
+						  </ul>
+						  <h1><img src="pokeradmin/images/ace-spades.gif" width="27"
+							 height="27" />&nbsp;&nbsp;Installing PokerMax Poker League</h1>
+						  <p align="justify">Right, after reading thru the above
+							 information I guess you are reading to install, follow the steps below to have
+							 a safe install. If you have any problems, the only thing it could be is that
+							 you have not edited the config file correctly, this file is located at
+							 includes/config.php Always use a text editor to open or edit this file.</p>
+						  <ol>
+							 <li>Unpack all the files, keeping the directory structure
+								in place from the zip file.</li>
+							 <li>Open the includes/config.php file in a text editor
+								and enter the name of your database, database username and database
+								password.</li>
+							 <li>Upload all of the files to your web server.</li>
+							 <li>Open up your browser and point it to
+								<a href="install/">http://yourdomain/install/</a> and follow the on screen
+								instructions to start the installation process.</li>
+							 <li>5. Then the file <b>pokerleague_.php</b> can be added
+								to your website to display the poker tournament leaderboard, poker player
+								information and the results of each of the tournaments in the poker
+								league.</li>
+						  </ol>
+						  <p align="justify">Installing PokerMax Pro should only take
+							 a matter of minutes by using our installer. After installation has been
+							 completed successfully remember to delete the install/ directory and contents
+							 which is located in the admin folder. This directory is a serious security risk
+							 and should not be left on the web server after installation is complete.</p>
+						  <p align="justify">If you want to use the back-up feature
+							 which is built in to PokerMax Poker League, you will need to chmod the
+							 admin/backup folder to 777, to allow the back-ups to be created and stored.
+							 Remember to password protect this directory !</p>
+						  <h1><img src="pokeradmin/images/ace-spades.gif" width="27"
+							 height="27" />&nbsp;&nbsp;Adding PokerMax Poker League to your Website</h1>
+						  <p align="justify">PokerMax Poker League can be used as is,
+							 straight from the box, so to speak, but to create the same look and feel as
+							 your website, you can will need to create a template design page, which is
+							 based on your website design. You can then enter the following line of code
+							 into your webpage template and all league tables, player profiles, league
+							 information will be able to view in your own design. It is that simple!</p>
+						  <p>Add the following line to your web template where you
+							 want the poker leaderboard tables etc. to appear:</p>
+						  <p align="center"><font color="#FF0000">&lt;?php include
+							 (&quot;pokerleague_.php&quot;); ?&gt;</font></p>
+						  <p align="justify">The main file you will be working with
+							 is called pokerleague_.php and this is the file that you will be including in
+							 your web design template page. You can call the page directly in the browser
+							 and use this in the default design, but it would look better in your own
+							 website design theme and style, so it's worth taking the time to create the
+							 template. </p>
+						  <p>Hope you make use of the script and if you need help,
+							 just ask!<br /><br /><b>Steve Dawson</b></p>
+						  <p>Freelance Web Developer -
+							 <a href="http://www.stevedawson.com">www.stevedawson.com</a></p><br /></td> 
+				    </tr> 
+				  </tbody> 
+				</table> </td> 
+		  </tr> 
+		</tbody> 
+	 </table> 
+	 <p class="copyright" align="center"><strong>PokerMax Poker League PHP
+		Software</strong><br /> Designed and Developed by
+		<a href="http://www.stevedawson.com" target="new">SteveDawson.com</a></p>
+	 </body>
+</html>
